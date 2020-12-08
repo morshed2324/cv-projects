@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:#ecf0f1;
+    font-family: 'Roboto', sans-serif;
+}
+/*****************************
+Start of Container Design
+******************************/
+.container{
+    max-width: 1000px;
+    background-color: #dfeaf1;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    float: left;
+    height: 100px;
+    width: 120px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    line-height: 1.2;}
+.contact{
+    float: right;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#16a085;
+}
+.contact p a{
+    text-decoration: none;
+    color: #563663;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.contact p a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+.clear-both{
+    clear: both;
+}
+.common-hr{
+    border: 3px solid black;
+    border-bottom: 0;
+    width: 100%;
+    margin: 20px auto;
+}
+/*****************************
+End of Container Design
+******************************/
+
+/***************************
+Start of section Area
+***************************/
+.personal-info{
+
+}
+.content{
+    margin:20px auto;
+}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+    text-align: justify;
+}
+.common-hr1{
+    border: 2px solid black;
+    border-bottom: 0;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.edu-1{
+    float: left;
+    width: 33%;
+    margin-right: 20%;
+}
+.edu-2{
+    float: left;
+    width: 33%;
+}
+
+
+.ft{
+    background: #000;
+    text-align: center;
+    padding: 10px;
+}
+.ft a{
+color: #fff;
+text-decoration: none;
+margin: 20px;
+}
+.ft p{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    
+    }
